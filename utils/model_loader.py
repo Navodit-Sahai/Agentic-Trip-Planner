@@ -2,6 +2,7 @@ from typing import Optional
 from pydantic import Field
 from langchain_groq import ChatGroq
 from utils.config_loader import load_config
+from pydantic import BaseModel
 import os
 
 
@@ -18,7 +19,7 @@ class ConfigLoader:
 
 
 
-class ModelLoader:
+class ModelLoader(BaseModel):
     model_provider="groq"
     config: Optional[ConfigLoader]=Field(default=None,exclude=True)
 
