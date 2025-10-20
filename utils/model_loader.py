@@ -20,7 +20,7 @@ class ConfigLoader:
 
 
 class ModelLoader(BaseModel):
-    model_provider="groq"
+    model_provider : str="groq"
     config: Optional[ConfigLoader]=Field(default=None,exclude=True)
 
     def model_post_init(self, __context:any) -> None:
