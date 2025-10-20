@@ -13,5 +13,6 @@ langchain_tavily
 langchain_groq
 langgraph
 langchain-google-community[places]
+setuptools
 
 -e .
