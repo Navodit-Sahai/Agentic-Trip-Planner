@@ -1,9 +1,13 @@
 # ✈️ AI Travel Planner
 
-An intelligent travel planning assistant powered by AI that creates comprehensive, personalized travel itineraries. Built with LangGraph, FastAPI, and Streamlit, this agentic system uses multiple tools to provide real-time travel recommendations including weather forecasts, place information, budget calculations, and currency conversions.
+> **Your intelligent companion for planning unforgettable journeys**
+
+An AI-powered travel planning assistant that creates comprehensive, personalized itineraries in seconds. Simply tell it where you want to go, your budget, and duration—the AI agent orchestrates multiple specialized tools to deliver complete day-by-day plans with hotels, restaurants, attractions, weather forecasts, budget breakdowns, and transportation options. Built with LangGraph's agentic workflow, it provides both popular tourist spots and hidden off-beat gems for authentic travel experiences.
 
 ![Python Version](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![LangGraph](https://img.shields.io/badge/LangGraph-1.0.0-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
 
 ## 🌟 Features
 
@@ -55,8 +59,8 @@ User Query → FastAPI Backend → LangGraph Agent → Tools → AI Response
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/AI_Travel_Planner.git
-cd AI_Travel_Planner
+git clone https://github.com/Navodit-Sahai/Agentic-Trip-Planner.git
+cd Agentic-Trip-Planner
 ```
 
 ### 2. Set Up Virtual Environment
@@ -247,7 +251,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Navodit Sahai**
 - Email: sahainavodit781@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Navodit-Sahai](https://github.com/Navodit-Sahai)
 
 ## 🙏 Acknowledgments
 
